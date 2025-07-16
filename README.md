@@ -30,6 +30,7 @@ This is a typical structure used in digital systems to buffer data between two s
 
 ---
 
+
 ## How It Works
 
 ### FIFO Pointers
