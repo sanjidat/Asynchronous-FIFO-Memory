@@ -75,11 +75,46 @@ Use Xilinx ISE, ModelSim, or Vivado:
 2. Run simulation
 3. Verify waveform
 
+## Usage
+
+### Simulation
+- Open ModelSim or your preferred simulator.
+
+- Compile the source and testbench files.
+
+- Run the provided TCL script (scripts/run_sim.tcl) to simulate.
+
+- Observe the waveform to verify Asychronous FIFO Behavior.
+
+### Synthesis & Implementation
+- Open Quartus Prime.
+
+- Create a new project targeting the DE10-Lite FPGA device.
+
+- Add the source files from src/.
+
+- Assign pins and add constraints as necessary.
+
+- Compile and upload the bitstream to your FPGA.
+
+
+## 🛠 Tools Used
+
+- Quartus Prime software
+
+- ModelSim for simulation
+
+- DE10-Lite FPGA development board (optional for hardware testing)
+
+- GitHub for version control and open-source documentation
+
+---
+
 
 🙋‍♀️ Author Developed by Sanjida Orin Tawhid
 
-More modules will be added as I progress through the course.
 
-This `README.md` provides an overview of the project and instructions on how to simulate the VHDL code and the testbench. 
+_MSc in Electronic Systems Design, specialization in Digital Design_  
 
-Let me know if you'd like any additional information or improvements!
+
+
